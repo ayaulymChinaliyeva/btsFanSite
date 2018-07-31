@@ -1,0 +1,51 @@
+/*developed by Ayaulym Chinaliyeva*/
+.navbar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333345;
+}
+.navbarOption{
+	float: left;
+    border-right: 1px solid #bbb;
+}
+.navbarLink{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+.navbarLink:hover{
+	background-color: #3FAC98;
+}
+.navbarLink:last-child{
+	border-right: none;
+}
+h4{
+	align-self: left;
+	color: #868FFF;
+	font-weight: bold;
+	font-family: serif Comic Sans MS;
+	text-shadow: -1px 0 #0000FF, 0 1px #0000FF, 1px 0 #0000FF, 0 -1px #0000FF;
+	font-size: 25px;
+}
+.links{
+	text-decoration-line: none;
+}
+.links:hover{
+	color: red;
+}
+.links:focus{
+	color: #111;
+}
+.specialLi{
+	color: #1C1C1C;
+	margin: 1em;
+	font-size: 15px;
+	font-family: sans-serif Constantia;
+	font-weight: 600;
+	font-variant: all;
+	font-style: italic;
+}

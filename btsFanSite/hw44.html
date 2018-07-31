@@ -1,0 +1,83 @@
+<!---developed by Ayaulym Chinaliyeva--->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <body background="https://pbs.twimg.com/media/DJiGy5DX0AA5HYk.jpg">
+<title>Favourite Singer</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" type="text/css" href="formDesign.css">
+</head>
+<body>
+<div class="container">
+<!--creating a navigation bar-->
+<div>
+  <ul class="navbar">
+    <li class="navbarOption"><a href="hw.html" class="navbarLink">Group biography</a></li>
+    <li class="navbarOption"><a href="hw2.html" class="navbarLink">Albums with title MVs</a></li>
+    <li class="navbarOption"><a href="hw3.html" class="navbarLink">Love Yourself "Her"</a></li>
+    <li class="navbarOption"><a href="http://localhost/termProject/hw44.html" class="navbarLink">Join our community!</a></li>
+  </ul>
+</div>
+<br>
+<h1><font color = #333345>WELCOME TO BTS FAN-PAGE</font></h1>
+<!--creating a wrapper-->
+<div class="wrapper">
+  <!--first part of the form-->
+    <div class="personalInfo">
+        <form action="registrationBD.php" method="POST">
+        <fieldset>
+        <legend><b>Personal info</b></legend>
+
+          <input type="text" name="fullname" placeholder="Full name">
+
+          <p>2. Your gender</p>
+          <input type="radio" name="gender" value="Male" checked> Male<br>
+          <input type="radio" name="gender" value="Female"> Female<br>
+          <input type="radio" name="gender" value="Other"> Other
+
+          <p>3. Your age</p>
+          <input type="radio" name="age" value="teen" checked> 12-18 <br>
+          <input type="radio" name="age" value="youth"> 19-24 <br>
+          <input type="radio" name="age" value="adult"> 25-30 <br>
+          <input type="radio" name="age" value="old">31+<br><br>
+
+          <input type="text" name="mobile" placeholder="Mobile number">
+          </fieldset>
+    </div>
+
+<!--second part of the form-->
+  <div class="form2">
+      <fieldset>
+      <legend><b>R U ARMY?</b></legend>
+
+      <p>5. R U ARMY?</p>
+      <input type="radio" name="armyCheck" value="yes" checked> Yes<br>
+      <input type="radio" name="armyCheck" value="no"> No<br>
+      <input type="radio" name="armyCheck" value="other"> Other
+
+      <p>6. Who is ur bias?</p>
+      <input type="radio" name="bias" value="RM">Rap-Monster<br>
+      <input type="radio" name="bias" value="J-Hope">J-Hope<br>
+      <input type="radio" name="bias" value="Suga" >Suga<br>
+      <input type="radio" name="bias" value="Jin">Jin<br>
+      <input type="radio" name="bias" value="Jimin" >Jimin<br>
+      <input type="radio" name="bias" value="V">V<br>
+      <input type="radio" name="bias" value="Jungkook">Jungkook<br>
+
+      <p>7. Their last mini album?</p>
+      <input type="radio" name="lastAlbum" value="LoveYourself"> Love Yourself: Her<br>
+      <input type="radio" name="lastAlbum" value="NoMoreDream"> No More Dream<br>
+      <input type="radio" name="lastAlbum" value="YoungForever"> Young Forever<br>
+      </fieldset>
+  </div>
+  <br>
+  <div style="text-align: right; align-items: right;">
+    <button>Submit</button>
+  </div>
+</form>
+</div>
+</body>
+</html
